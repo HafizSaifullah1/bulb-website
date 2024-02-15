@@ -1,0 +1,214 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+
+    /* width: 100vw; */
+    height: 100vh;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.banner div{
+background-color: rgba(0,0,0, 0.4);
+color: white;
+padding: 30px;
+}
+
+h1 {
+
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.5;
+}
+
+.class1 {
+    padding: 20px;
+
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 1.5em;
+}
+
+.img1 {
+    background-image: url(https://images.unsplash.com/photo-1535868463750-c78d9543614f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-attachment: fixed; */
+    background-size: cover;
+
+
+}
+
+
+.img2 {
+    background-image: url(https://images.unsplash.com/photo-1682685797769-481b48222adf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+
+.img3 {
+    background-image: url(https://images.unsplash.com/photo-1682686580452-37f1892ee5e8?q=80&w=1375&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-attachment: fixed; */
+    background-size: cover;
+
+}
+
+
+
+
+.cardparent {
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.cardparent div {
+    width: 300px;
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 10 12 rgba(0, 0, 0, 0.2);
+
+}
+
+.section {
+    display: flex;
+}
+
+.section div {
+    flex: 1;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+margin: 10px 5px;
+}
+
+.sec1 {
+    flex: 1;
+    background-image: url('https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg');
+}
+
+
+.sec2 {
+    flex: 1;
+    background-image: url('https://images.surferseo.art/fdb08e2e-5d39-402c-ad0c-8a3293301d9e.png');
+}
+
+.sec3 {
+    flex: 1;
+    background-image: url('https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg');
+}
+
+.sec4 {
+    flex: 1;
+    background-image: url('https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg');
+}
+
+.sec5 {
+
+    flex: 1;
+    background-image: url('https://2.bp.blogspot.com/-7fDorXHTy5g/Vnf88kKF4II/AAAAAAAA06Y/PKa5ri8YB5A/s0/neat-simple-home-design.jpg');
+}
+
+.imgsec{
+margin: 10px 5px;
+justify-content: center;
+flex-direction: column;
+
+}
+
+
+
+
+
+.imgsec img{
+    margin: 10px 5px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 10 12 black;
+    display: inline-block;
+    margin: 10px;
+    }
+    @media only screen and (max-width: 600px) {
+         {
+          
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .parent {
+    background-color: cyan;
+    position: relative;
+} 
+
+.parent div {
+    width: 150px;
+    height: 150px;
+}
+
+.red{
+    background-color: red;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    
+}
+
+.green{
+    background-color: green;
+    position: fixed;
+    bottom: 300px;
+    left: 600px;
+    z-index: 1;
+}
+
+.blue{
+
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    / top: 20px;
+    left: 20px; 
+
+    z-index: 2;
+} */
